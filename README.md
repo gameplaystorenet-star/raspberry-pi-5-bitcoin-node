@@ -3,8 +3,33 @@
 Este projeto documenta, passo a passo, a instalação, configuração e operação
 de um **nó completo Bitcoin Core** utilizando um **Raspberry Pi 5** com
 armazenamento **NVMe**, foco em **segurança, estabilidade e privacidade**.
+1. [01-installation.md](docs/01-installation.md)  
+   Instalação do sistema operacional
 
----
+2. [02-network-and-remote-access.md](docs/02-network-and-remote-access.md)  
+   Rede, SSH e acesso remoto
+
+3. [03-security.md](docs/03-security.md)  
+   Segurança básica do sistema
+
+4. [04-storage-nvme.md](docs/04-storage-nvme.md)  
+   Preparação e uso do NVMe
+
+5. [05-bitcoin-core.md](docs/05-bitcoin-core.md)  
+   Instalação e configuração do Bitcoin Core
+
+6. [06-bitcoind-systemd.md](docs/06-bitcoind-systemd.md)  
+   Bitcoin Core como serviço (systemd)
+
+7. [07-monitoring-and-maintenance.md](docs/07-monitoring-and-maintenance.md)  
+   Monitoramento e manutenção
+
+8. [08-backups-and-recovery.md](docs/08-backups-and-recovery.md)  
+   Backup e recuperação
+
+9. [09-tor.md](docs/09-tor.md)  
+   Bitcoin Core com Tor (privacidade)
+
 
 ## 🎯 Objetivos do Projeto
 
@@ -30,33 +55,7 @@ armazenamento **NVMe**, foco em **segurança, estabilidade e privacidade**.
 ## 📚 Estrutura da Documentação
 
 Siga os arquivos **na ordem** abaixo:
-
-1. `01-installation.md`  
-   Instalação do sistema operacional
-
-2. `02-network-and-remote-access.md`  
-   Rede, SSH e acesso remoto
-
-3. `03-security.md`  
-   Segurança básica do sistema
-
-4. `04-storage-nvme.md`  
-   Preparação e montagem do NVMe
-
-5. `05-bitcoin-core.md`  
-   Instalação e configuração do Bitcoin Core
-
-6. `06-bitcoind-systemd.md`  
-   Bitcoin Core como serviço (systemd)
-
-7. `07-monitoring-and-maintenance.md`  
-   Monitoramento e manutenção
-
-8. `08-backups-and-recovery.md`  
-   Backup e recuperação
-
-9. `09-tor.md`  
-   Operação do nó via rede Tor
+ 
 
 ---
 
