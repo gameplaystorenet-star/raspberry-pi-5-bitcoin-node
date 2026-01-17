@@ -56,3 +56,4 @@ Após o boot, acesse o Raspberry Pi via terminal (local ou remoto) e execute:
 
 ```bash
 ip a
+<!-- ajuste -->
