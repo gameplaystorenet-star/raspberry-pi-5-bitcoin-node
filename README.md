@@ -104,8 +104,10 @@ Use por sua conta e risco.
 
 Siga os arquivos da pasta `docs/` em ordem numérica, do 01 ao 09.
 
+
 ---
 
 ## ⚠️ Aviso Importante
 
 Projeto educacional. Você é responsável pela operação do seu nó.
+<!-- ajuste -->
