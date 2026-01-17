@@ -1,3 +1,7 @@
+![Release](https://img.shields.io/github/v/release/gameplaystorenet-star/raspberry-pi-5-bitcoin-node)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![License](https://img.shields.io/github/license/gameplaystorenet-star/raspberry-pi-5-bitcoin-node)
+![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi%205-red)
 # Raspberry Pi 5 Bitcoin Full Node
 
 Este projeto documenta, passo a passo, a instalação, configuração e operação
