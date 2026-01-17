@@ -7,6 +7,28 @@
 Este projeto documenta, passo a passo, a instalação, configuração e operação
 de um **nó completo Bitcoin Core** utilizando um **Raspberry Pi 5** com
 armazenamento **NVMe**, foco em **segurança, estabilidade e privacidade**.
+---
+
+## 🚀 Quick Start (Resumo rápido)
+
+Para usuários que já conhecem Linux e querem subir o nó rapidamente.
+
+```bash
+# 1. Atualizar o sistema
+sudo apt update && sudo apt upgrade -y
+
+# 2. Preparar o NVMe (exemplo)
+sudo mkfs.ext4 /dev/nvme0n1
+sudo mkdir -p /mnt/bitcoin
+sudo mount /dev/nvme0n1 /mnt/bitcoin
+
+# 3. Instalar Bitcoin Core
+sudo apt install bitcoind bitcoin-cli -y
+
+# 4. Ativar o serviço
+sudo systemctl enable bitcoind
+sudo systemctl start bitcoind
+
 1. [01-installation.md](docs/01-installation.md)  
    Instalação do sistema operacional
 
