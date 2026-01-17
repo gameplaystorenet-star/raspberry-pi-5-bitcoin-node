@@ -72,3 +72,14 @@ Siga os arquivos **na ordem** abaixo:
 
 Este projeto é disponibilizado para fins educacionais.
 Use por sua conta e risco.
+---
+
+## ▶️ Como usar este repositório
+
+Siga os arquivos da pasta `docs/` em ordem numérica, do 01 ao 09.
+
+---
+
+## ⚠️ Aviso Importante
+
+Projeto educacional. Você é responsável pela operação do seu nó.
